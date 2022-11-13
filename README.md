@@ -8,4 +8,8 @@
 
 # Code Zenify Plugin
 
+| ![](assets/LongCode.png)    | ![](assets/ShortCode.png) |
+|-----|---------------------------|
+
+
 <!-- Plugin description end -->

@@ -162,7 +162,7 @@ class ZenifyVisitor(private val settings: AppSettings) : JavaRecursiveElementVis
 
     override fun visitField(element: PsiField) {
         if (settings.foldLogs
-            && firstMethodCallExpressionMatches(element.children, "LoggerFactory.*\\..*getLogger.*\\(.*\\).*")
+            && firstMethodCallExpressionMatches(element.children, "Logger.*?\\..*getLogger.*\\(.*\\).*")
         ) {
             foldElement(element)
             return
@@ -179,7 +179,7 @@ class ZenifyVisitor(private val settings: AppSettings) : JavaRecursiveElementVis
     }
 
     override fun visitMethodCallExpression(element: PsiMethodCallExpression) {
-        if (settings.foldLogs && textMatches(element, "LOG\\w.*\\.(trace|debug|info|warn|error|fatal)\\(.*\\).*")) {
+        if (settings.foldLogs && textMatches(element, "LOG\\w.*\\.(trace|debug|info|warn|error|fatal|fine).*?\\(.*\\).*")) {
             foldElement(element, "log(…)")
             return
         }
