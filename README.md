@@ -10,9 +10,10 @@
 
 This is a IntelliJ IDEA plugin which reduces Java code by all the superfluous rubbish that only disturbs a code review.
 
-| Original source    | Zenified source |
+| Original source  | Zenified source           |
+|------------------|---------------------------|
 | ![Before](assets/LongCode.png)    | ![After](assets/ShortCode.png) |
-|-----|---------------------------|
+|------------------|---------------------------|
 
 There are planty of setting options to customize your zenification experience:
 
