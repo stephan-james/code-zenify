@@ -3,5 +3,9 @@
 # Code Zenify Changelog
 
 ## [Unreleased]
-### 1.0.0
+
+## [1.0.0]
 - Initial Version. Simple but useful.
+
+## [1.0.1]
+- Update to new Gradle, Java, Kotlin and IntelliJ versions.
