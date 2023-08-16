@@ -9,3 +9,6 @@
 
 ## [1.0.1]
 - Update to new Gradle, Java, Kotlin and IntelliJ versions.
+
+## [1.0.2]
+- Updated to review feedback.
