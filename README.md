@@ -33,10 +33,6 @@ You can choose to:
 
 Since the zenify mode toggles it is a good idea to provide the zenify action with a specific shortcut.
 
----
-
-Source code is available at https://github.com/stephan-james/de-sjd-zenify.
-
 <!-- Plugin description end -->
 
 ### Example
