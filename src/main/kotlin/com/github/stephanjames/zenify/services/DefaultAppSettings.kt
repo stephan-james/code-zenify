@@ -15,6 +15,7 @@ class DefaultAppSettings : AppSettings {
     override var foldGettersSetters = true
     override var foldImportLists = true
     override var foldLogs = true
+    override var foldNewKeyword = true
     override var foldMethods = mutableListOf(
         "equals(java.lang.Object) -> boolean",
         "hashCode() -> int",

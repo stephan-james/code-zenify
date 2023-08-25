@@ -12,7 +12,7 @@ Credits go to Dmitry Kandalov (https://github.com/dkandalov/live-plugin) for del
 
 This is an IntelliJ IDEA plugin which reduces Java code by all the superfluous rubbish that only disturbs a code review.
 
-There are planty of setting options to customize your zenification experience:
+There are planty of options to customize your zenification experience:
 
 You can choose to:
 - fold blocks
@@ -28,6 +28,7 @@ You can choose to:
 - fold parentheses
 - fold semicolons
 - fold throw statements
+- fold new statements
 - fold type parameter lists
 - fold arbitrary expressions
 

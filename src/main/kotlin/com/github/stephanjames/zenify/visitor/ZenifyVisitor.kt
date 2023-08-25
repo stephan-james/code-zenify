@@ -89,6 +89,11 @@ class ZenifyVisitor(private val settings: AppSettings) : JavaRecursiveElementVis
             return
         }
 
+        if(settings.foldNewKeyword && element.tokenType == JavaTokenType.NEW_KEYWORD && element.parent is PsiNewExpression) {
+            foldElement(element)
+            return
+        }
+
         super.visitKeyword(element)
 
         if (!settings.foldBlocks) {

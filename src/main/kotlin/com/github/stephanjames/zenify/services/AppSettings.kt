@@ -16,6 +16,7 @@ interface AppSettings {
     var foldSemicolons: Boolean
     var foldThrowsStatement: Boolean
     var foldTypeParameterList: Boolean
+    var foldNewKeyword: Boolean
 
     fun isEqualTo(that: AppSettings?): Boolean = that != null
             && this.foldBlocks == that.foldBlocks
@@ -32,6 +33,7 @@ interface AppSettings {
             && this.foldSemicolons == that.foldSemicolons
             && this.foldThrowsStatement == that.foldThrowsStatement
             && this.foldTypeParameterList == that.foldTypeParameterList
+            && this.foldNewKeyword == that.foldNewKeyword
 
     fun apply(that: AppSettings) {
         this.foldBlocks = that.foldBlocks
@@ -48,6 +50,7 @@ interface AppSettings {
         this.foldSemicolons = that.foldSemicolons
         this.foldThrowsStatement = that.foldThrowsStatement
         this.foldTypeParameterList = that.foldTypeParameterList
+        this.foldNewKeyword = that.foldNewKeyword
     }
 
 }
