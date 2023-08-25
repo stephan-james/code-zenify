@@ -2,6 +2,8 @@
 
 # Code Zenify Changelog
 
+## [Unreleased]
+
 ## [1.0.3]
 - Added keyword <em>new</em> in new expressions to foldables.
 
