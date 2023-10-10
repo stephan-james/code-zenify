@@ -4,6 +4,9 @@
 
 ## [Unreleased]
 
+## [1.0.4]
+- Updated to newer IntelliJ versions.
+
 ## [1.0.3]
 - Added keyword <em>new</em> in new expressions to foldables.
 
